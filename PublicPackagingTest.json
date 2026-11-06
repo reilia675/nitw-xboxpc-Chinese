@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0-beta.1",
+  "date": "2026-11-06",
+  "status": "passed",
+  "tests": {
+    "standard_library_tests_passed": 7,
+    "python_syntax_check": "passed",
+    "portable_builder_cli": "passed",
+    "release_archive_crc": "passed",
+    "automatic_game_directory_detection_in_verify_mode": "passed",
+    "automatic_detection_input_resources_reconstructed_and_sha256_verified": 2,
+    "explicit_custom_game_directory_install": "passed in fixture",
+    "input_to_chinese_mode_switch": "passed in fixture",
+    "chinese_to_input_mode_switch": "passed in fixture",
+    "restore_original_resource_sha256": "passed in fixture",
+    "corrupt_baseline_rejected_before_resource_writes": "passed in fixture"
+  },
+  "fixture_process_guard_note": "The fixture-only script copy used a dummy process name. The production installer retains its original running-game guard.",
+  "resource_delta_payload_changed_during_public_packaging": false,
+  "actual_game_resources_modified_during_public_packaging": false,
+  "game_launched_during_public_packaging": false,
+  "in_game_visual_and_physical_controller_verification": "not performed"
+}

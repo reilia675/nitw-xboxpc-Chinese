@@ -1,0 +1,13 @@
+{
+  "process_guard": "Only the fixture copy used a dummy process name; the delivered installer guard is unchanged.",
+  "status": "passed",
+  "fixture_only": true,
+  "tests": [
+    "Input install SHA-256",
+    "Input to Chinese switch SHA-256",
+    "Chinese to Input switch and original restoration SHA-256",
+    "Full restore SHA-256",
+    "Corrupted source rejected before resource writes"
+  ],
+  "actual_game_files_modified": false
+}

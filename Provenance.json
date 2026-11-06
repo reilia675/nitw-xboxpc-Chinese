@@ -1,0 +1,10 @@
+{
+  "translation_repository": "https://github.com/Know-Team/NITW_zh-Hans-CN_l10n",
+  "translation_commit": "699d5936d20461aed4328dc82ca0449e75527c64",
+  "font_source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+  "font_source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "game_engine": "5.6.2p4",
+  "game_package": "20687LastChanceMediaLLC.NightintheWoodsWin10_1.0.0.0_x64__7yqf0z0y19xp8",
+  "build_date": "2026-11-06",
+  "live_test_performed": false
+}

@@ -1,0 +1,36 @@
+name: 问题反馈
+description: 安装、中文显示或输入映射问题
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题类型
+      options:
+        - 安装或恢复
+        - 中文显示或剧情选项
+        - 键盘或手柄
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: 游戏平台/版本、补丁版本、Windows 版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际结果
+      description: 输入问题请补充控制器型号、USB/蓝牙和映射软件；显示问题请说明场景。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+  - type: textarea
+    id: error
+    attributes:
+      label: 报错文字或补充信息
+      description: 可移除用户名和个人路径；请勿上传游戏原件、存档或账户数据。

@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "game": "Night in the Woods Xbox Win10",
+  "build": "Unity 5.6.2p4 / Xbox 1.0.0.0",
+  "status": "experimental-offline-validated",
+  "statistics": {
+    "dialogue_lines_available": 24993,
+    "dialogue_lines_translated": 23969,
+    "yarn_assets": 127,
+    "menu_labels": 152,
+    "input_managers": 6,
+    "sprite_fonts": 6,
+    "glyphs": 2764,
+    "menu_fonts": 4
+  }
+}
